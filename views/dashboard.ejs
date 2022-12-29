@@ -1,52 +1,63 @@
 <%- include('partials/header') -%>
 
-<main class="d-flex flex-nowrap">
-<h1 class="visually-hidden">Focus Dashboard</h1>
-<div class="d-flex flex-column flex-shrink-0 p-3 text-bg-light" style="width: 280px;">
-    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-black text-decoration-none">
-      <span class="fs-4">Focus</span>
-    </a>
-    <hr>
-    <ul class="nav nav-pills flex-column mb-auto">
-      <li class="nav-item">
-        <a href="#" class="nav-link active" aria-current="page">
-          Summary
-        </a>
-      </li>
-      <li>
-        <a href="#" class="nav-link text-black">
-          Team
-        </a>
-      </li>
-      <li>
-        <a href="#" class="nav-link text-black">
-          Code
-        </a>
-      </li>
-    </ul>
-    <hr>
-    <div class="dropdown">
-      <a href="#" class="d-flex align-items-center text-black text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-        User
-      </a>
-      <ul class="dropdown-menu dropdown-menu-light text-small shadow">
-        <li><a class="dropdown-item" href="#">Settings</a></li>
-        <li><a class="dropdown-item" href="#">Account</a></li>
-        <li><hr class="dropdown-divider"></li>
-        <li><a class="dropdown-item" href="#">Sign out</a></li>
-      </ul>
-    </div>
-  </div>
+<main>
+  <body>
+      <header class="p-3 text-bg-dark">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          </a>
 
-<div class="container">
-  <div class="row mt-5">
-      <div class="col-md-6 m-auto">
-          <div>
-              <p><strong>User Name</strong>: <%= user.userName %></p>
-              <p><strong>Email</strong>: <%= user.email %></p>
-              <a href="/logout" class="col-3 btn btn-primary">Logout</a>
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="#" class="nav-link px-2 text-white">Home</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">Projects</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">Activities</a></li>
+          </ul>
+
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+            <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+          </form>
           </div>
+        </div>
+      </header>
+
+    <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-light" style="width: 280px;">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-black text-decoration-none">
+          <span class="fs-4">Focus</span>
+        </a>
+      <hr>
+      <ul class="nav nav-pills flex-column mb-auto">
+        <li class="nav-item">
+          <a href="#" class="nav-link active" aria-current="page">
+            Summary
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link text-black">
+            Team
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link text-black">
+            Code
+          </a>
+        </li>
+      </ul>
+      <hr>
+      <div class="dropdown">
+        <a href="#" class="d-flex align-items-center text-black text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          User
+        </a>
+        <ul class="dropdown-menu dropdown-menu-light text-small shadow">
+          <li><a class="dropdown-item" href="#">Settings</a></li>
+          <li><a class="dropdown-item" href="#">Account</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="/logout">Logout</a></li>
+        </ul>
       </div>
-  </div>
-</div>
+    </div>
+
+  </body>
+</main>
+
 <%- include('partials/footer') -%>
