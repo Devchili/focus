@@ -6,7 +6,7 @@ Focus is a software application built to find bugs in your code or identify issu
 ## 💻 Install
 
 - Fork and clone the repository to your local computer.
-- Complete and store `.env` file in the `server/config` folder
+- Complete and store `.env` file in the `config` folder
 
 - `npm install` in the root folder installs the required dependencies.
     - This runs a local instance of mongodb. You can connect to it by connecting to `mongodb://127.0.0.1:27017/` with any MongoDB client like [Compass](https://www.mongodb.com/products/compass).
