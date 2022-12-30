@@ -1,0 +1,55 @@
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+body, html {
+    margin: 0px auto;
+    padding: 0px auto;
+    width: 100%;
+}
+
+body{
+    display: table;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1{
+    margin-top: 5em;
+    font-size: 2em;
+    text-align: center;
+}
+
+.bg-container-dark{
+    padding: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#signup{
+    margin-right: 100px;
+}
+
+#login{
+    margin-left: 100px;
+}
+
+.cover-container {
+    max-width: 42em;
+}
+
+.nav-masthead .nav-link {
+    color: rgba(255, 255, 255, .5);
+}
+
+
+.nav-masthead .nav-link + .nav-link {
+    margin-left: 1rem;
+}
+
+.nav-masthead .active {
+    color: #fff;
+}

@@ -1,11 +1,32 @@
 <%- include('partials/header') -%>
 
-<main class="container">
-    <div class="row justify-content-around mt-5">
-        <a href="/login" class="col-3 btn btn-primary"> Login</a>
-        <a href="/signup" class="col-3 btn btn-primary"> Signup</a>
-    </div>
-</main>
+<link href="css/index.css" rel="stylesheet">
 
+<body class="d-flex h-100 text-center text-bg-dark">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+            <div>
+            <h3 class="float-md-start mb-0">Focus</h3>
+            <nav class="nav nav-masthead justify-content-center float-md-end">
+                <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">About</a>
+                <a class="nav-link fw-bold py-1 px-0" href="#">Features</a>
+                <a class="nav-link fw-bold py-1 px-0" href="#">Contact</a>
+            </nav>
+            </div>
+        </header>
+        <br>
+    <main class="px-3">
+        <h1>Manage your projects and fix your bugs</h1>
+        <br>
+        <p class="lead">Focus is an online bug tracker and issue tracking software that helps you to track and fix bugs quickly.</p>
+
+        <div class="bg-container-dark">
+            <div class="row justify-content-around mt-5">
+                <a href="/login" id="login" class="col-2 btn btn-outline-light"> Login</a>
+                <a href="/signup" id="signup" class="col-2 btn btn-outline-light"> Signup</a>
+            </div>
+        </div>
+    </main>
+</body>
 
 <%- include('partials/footer') -%>
