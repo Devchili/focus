@@ -11,16 +11,8 @@ body, html {
     width: 100%;
 }
 
-body{
-    display: table;
-    text-align: center;
-    vertical-align: middle;
-}
-
 h1{
-    margin-top: 5em;
-    font-size: 2em;
-    text-align: center;
+    margin-top: 50px;
 }
 
 .bg-container-dark{
@@ -33,11 +25,7 @@ h1{
     margin-right: 100px;
 }
 
-#login{
-    margin-left: 100px;
-}
-
-.cover-container {
+.container-fluid {
     max-width: 42em;
 }
 
