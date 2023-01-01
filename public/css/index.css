@@ -21,9 +21,6 @@ h1{
     margin-right: 50px;
 }
 
-#signup{
-    margin-right: 100px;
-}
 
 .container-fluid {
     max-width: 42em;
@@ -41,3 +38,24 @@ h1{
 .nav-masthead .active {
     color: #fff;
 }
+
+#team-flow{
+    margin-top: 50px;
+    margin-right: 50px;
+    padding: auto;
+}
+
+/*color palette:
+
+HEX:
+#6250fe or rgba(98,80,254,255)
+#4b4b4b or rgb(75,75,75)
+#9c94fc or rgb(156,148,252)
+#3a3939 or rgb(58,57,57)
+#8d8a9d or rgb(141,138,157)
+#787878 or rgb(120,120,120)
+#040404 or rgb(4,4,4)
+#6454fb or rgb(100,84,251)
+#f7d334 or rgb(247,211,52)
+
+*/
