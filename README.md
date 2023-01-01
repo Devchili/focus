@@ -2,6 +2,8 @@
 
 Focus is a software application built to find bugs in your code or identify issues within your projects. 
 
+<img src="/public/imgs/demo/focus_homepage.png" alt="home" title="homepage">
+
 # 🚀 Getting Started
 ## 💻 Install
 
