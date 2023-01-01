@@ -1,5 +1,8 @@
 <%- include('partials/header') -%>
 
+<link href="css/login.css" rel="stylesheet">
+
+<body style="" class="text-bg-dark">
   <div class="row justify-content-center">
     <section class="col-6 mt-5">
       <% if (locals.messages.errors) { %> <% messages.errors.forEach( el => { %>
@@ -9,34 +12,34 @@
       <div class="alert alert-info"><%= el.msg %></div>
       <% }) %> <% } %>
 
-    <main class="form-signin w-75 m-auto">
+    <main class="form-signin w-50 m-auto">
       <div class="container-md-8">
-      <form action="/login" method="POST">
-        <img class="mb-4" src="/imgs/logo/svg/Black_nobackground.svg" alt="" width="92" height="67">
-        <h1 class="h3 mb-3 fw-normal">Sign in</h1>
+        <form action="/login" method="POST">
+          <a href="/">
+            <img class="mb-4" src="/imgs/logo/svg/color_nobackground.svg" alt="" width="92" height="67">
+          </a>
+          <h1 class="h3 mb-3 fw-normal">Sign in</h1>
 
-        <div class="form-floating">
-          <input type="email" class="form-control form-control-sm" id="floatingInput">
-          <label for="floatingInput">Email address</label>
-        </div>
-        <br>
-        <div class="form-floating">
-          <input type="password" class="form-control form-control-sm" id="floatingPassword">
-          <label for="floatingPassword">Password</label>
-        </div>
-        <br>
-        <div class="checkbox mb-3">
-          <label>
-            <input type="checkbox" value="remember-me"> Remember me
-          </label>
-        </div>
-
-      <button class="w-100 btn btn-md btn-primary" type="submit">Sign in</button>
-      </form>
-
+          <div class="form-floating text-black">
+            <input type="email" class="form-control form-control-sm" id="floatingInput">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <br>
+          <div class="form-floating text-black">
+            <input type="password" class="form-control form-control-sm" id="floatingPassword">
+            <label for="floatingPassword">Password</label>
+          </div>
+          <br>
+          <div class="checkbox mb-3">
+            <label>
+              <input type="checkbox" value="remember-me"> Remember me
+            </label>
+          </div>
+          <button type="submit" class="w-100 btn">Sign in</button>
+        </form>
       </div>
     </section>
-    </div>
-</main>
+  </div>
+</body>
 
 <%- include('partials/footer') -%>

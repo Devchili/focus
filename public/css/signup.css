@@ -1,0 +1,15 @@
+body, html {
+    margin: 0px auto;
+    padding: 0px auto;
+    width: 100%;
+}
+
+.btn {
+    background-color: #6454fb !important;
+    color: rgb(255, 255, 255);
+}
+
+.form-signup{
+    margin-right: 18%;
+    margin-left: 18%;
+}
