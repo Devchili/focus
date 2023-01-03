@@ -1,20 +1,20 @@
 {
   "name": "tracker",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "issue tracker software",
+  "main": "index.js",
   "scripts": {
     "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jamie Cha",
   "license": "ISC",
   "dependencies": {
     "@popperjs/core": "^2.11.6",
     "bcrypt": "^5.1.0",
     "bootstrap": "^5.3.0-alpha1",
-    "cloudflare": "^2.9.1",
+    "cloudflare": "^0.0.8",
     "cloudinary": "^1.33.0",
     "connect-flash": "^0.1.1",
     "connect-mongo": "^4.6.0",
