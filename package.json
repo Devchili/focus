@@ -11,7 +11,7 @@
   },
   "keywords": [],
   "author": "Jamie Cha",
-  "license": "ISC",
+  "license": "ISC", 
   "dependencies": {
     "bootstrap": "^5.2.3",
     "cloudflare": "^0.0.8",
