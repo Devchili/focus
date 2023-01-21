@@ -7,11 +7,10 @@
     "start": "nodemon server.js",
     "build": "npm run build",
     "test": "npm run test"
-
   },
   "keywords": [],
   "author": "Jamie Cha",
-  "license": "ISC", 
+  "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.2.3",
     "cloudflare": "^0.0.8",
@@ -36,5 +35,14 @@
     "passport-local": "^1.0.0",
     "session": "^0.1.0",
     "validator": "^13.7.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamiecha88/focus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jamiecha88/focus/issues"
+  },
+  "homepage": "https://github.com/jamiecha88/focus#readme",
+  "devDependencies": {}
 }
