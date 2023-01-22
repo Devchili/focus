@@ -12,8 +12,10 @@
   "author": "Jamie Cha",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.1.0",
     "bootstrap": "^5.2.3",
     "cloudflare": "^0.0.8",
+    "cloudinary": "^1.33.0",
     "connect-flash": "^0.1.1",
     "connect-mongo": "^4.6.0",
     "connect-mongodb-session": "^3.1.1",
@@ -43,6 +45,5 @@
   "bugs": {
     "url": "https://github.com/jamiecha88/focus/issues"
   },
-  "homepage": "https://github.com/jamiecha88/focus#readme",
-  "devDependencies": {}
+  "homepage": "https://github.com/jamiecha88/focus#readme"
 }
