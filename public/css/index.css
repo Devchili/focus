@@ -21,6 +21,10 @@ body, html {
     width: auto;
 }
 
+img.rounded-corners {
+     border-radius: 50px;
+}
+
 h1{
     margin-top: 50px;
 }
@@ -47,6 +51,10 @@ h1{
 
 .nav-masthead .active {
     color: #fff;
+}
+
+div.row-fluid {
+    font-size: large;
 }
 
 #team-flow{
