@@ -6,9 +6,19 @@
 }
 
 body, html {
+    scroll-behavior: smooth;
     margin: 0px auto;
     padding: 0px auto;
+    font-weight: normal;
     width: 100%;
+}
+
+.logo{
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+    display: block !important;
+    height: 3em;
+    width: auto;
 }
 
 h1{
